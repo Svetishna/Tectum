@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Tectum</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo.svg " alt="">
+        <div class="header__buttons">
+            <button class="button-theme">
+                <img class="sun" src="img/light.svg" alt="">
+                <img class="moon hidden" src="img/moon.svg" alt="">
+            </button>
+            <button class="button-white">
+                <img src="img/bell.svg" alt="">
+            </button>
+            <button class="button-burger">
+                <img src="img/burger.svg" alt="">
+            </button>
+            <div class="header-button">
+                <button class="button-text arrow-top">
+                    RUB
+                </button>
+                <ul class="header-button__list hidden">
+                    <li class="list__item">USD</li>
+                    <li class="list__item">MOZ</li>
+                    <li class="list__item">TEC</li>
+                    <li class="list__item">BTC</li>
+                    <li class="list__item">ETH</li>
+                    <li class="list__item">USD</li>
+                    <li class="list__item">EUR</li>
+                    <li class="list__item">GBP</li>
+                    <li class="list__item">CAD</li>
+                    <li class="list__item">AUD</li>
+                    <li class="list__item">RUB</li>
+                </ul>
+            </div>
+            <div class="header-button">
+                <button class="button-text button-lang arrow-top">
+                    <img src="img/planet.svg" alt="">
+                    <div class="button-text-change">Русский</div>
+                </button>
+                <ul class="header-button__list lang-list hidden">
+                    <li class="list__item"><img src="img/planet.svg" alt="">English</li>
+                    <li class="list__item"><img src="img/planet.svg" alt="">Русский</li>
+                </ul>
+            </div>
+            <div class="header-email hidden">
+                <p></p>
+            </div>
+            <div class="button-men hidden">
+                <img src="img/men.svg" alt="">
+            </div>
+            <button class="button-enter">
+                <p>Вход</p>
+            </button>
+            <button class="button-reg button-reg-head">
+                <p>Регистрация</p>
+            </button>
+            <div class="wrapper hidden">
+                <form class="reg-form">
+                    <img class="close" src="img/close.svg" alt="">
+                    <h2>Создайте Ваш аккаунт Tectum</h2>
+                    <textarea class="reg-form__textarea" placeholder="Введите Ваш E-mail"></textarea>
+                    <p class="wrong-textarea hidden">Error Значение «Email» не является правильным email адресом.</p>
+                    <button class="button-form-reg">
+                        <p>Зарегестрироваться</p>
+                    </button>
+                    <p class="reg-form__text">Регистрируясь, вы соглашаетесь с Tectum<br><span>Условиями предоставления
+                            услуг </span>и<br><span>Политикой
+                            конфиденциальности</span>
+                    </p>
+                    <p class="reg-form__text-second">Уже есть аккаунт?<span>Войти</span></p>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <div class="article__container">
+                <div class="article__items">
+                    <div class="article__item">
+                        <p>всего кластеров <span>28</span></p>
+                        <p>Активных кластеров <span>12</span></p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="article__item">
+                        <p>всего нод <span>68’000</span></p>
+                        <p>Активных нод <span>58'574</span></p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="article__item">
+                        <p>всего токенов <br><span>38'278'154'268</span></p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="article__item">
+                        <p>капитализация <br><span>$ 72,581,690,992</span></p>
+                    </div>
+                </div>
+                <div class="article__search">
+                    <textarea class="search__textarea"
+                        placeholder="Хэш, Нода ID, Блокчейн ID, Транзакция или Кошелек"></textarea>
+                    <textarea class="search__textarea-mini" placeholder="Search"></textarea>
+                    <div class="article__search__images">
+                        <img class="hidden search-img close-img" src="img/close.svg" alt="">
+                        <img class="hidden search-img" src="img/line.svg" alt="">
+                        <img src="img/search.svg" alt="">
+                    </div>
+
+                </div>
+                <div class="article__list__items">
+                    <ul class="article__list">
+                        <li><img class="oval" src="img/oval.svg" alt="">События</li>
+                        <li><img class="oval" src="img/oval.svg" alt="">Токены</li>
+                        <li><img class="oval" src="img/oval.svg" alt="">Хранилище</li>
+                        <li><img class="oval" src="img/oval.svg" alt="">Файлы</li>
+                        <li><img class="oval" src="img/oval.svg" alt="">Контракты</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+        <section>
+            <div class="section__container">
+                <div class="section__header">
+                    <p>События <span class="section__header__btn top">
+                            все
+                        </span></p>
+                    <table class="section__header-table hidden">
+                        <tbody>
+                            <tr>
+                                <td class="table-item">BTC</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item">LTC</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item">TEC</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item">TET</td>
+                            </tr>
+                            <tr>
+                                <td class="table-item">SoftNote</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <table class="section__table">
+                    <thead>
+                        <tr>
+                            <th class="dark">Сеть</th>
+                            <th class="dark block">Блок</th>
+                            <th class="dark hash-none">Хеш события</th>
+                            <th class="dark"></th>
+                            <th class="dark thead__summ">Сумма</th>
+                            <th class="dark forex">Валюта</th>
+                            <th class="dark time">Дата/Время</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="img/bit.svg" alt="">Bitcoin
+                            </td>
+                            <td class="gray block">123456</td>
+                            <td class="hash max-screen">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFup8J</td>
+                            <td class="hash min-screen">CYjJTS...cFup8J</td>
+                            <td>
+                                <img class="img-file" src="img/file.svg" alt="">
+                            </td>
+                            <td class="gray thead__summ">0.0172000</td>
+                            <td class="gray forex"><img src="img/bit.svg" alt="">BTC</td>
+                            <td class="time">2022/01/22 15:19:08</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/bit.svg" alt="">Bitcoin
+                            </td>
+                            <td class="gray block">123456</td>
+                            <td class="hash max-screen">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</td>
+                            <td class="hash min-screen">CYjJTS...cFup8J</td>
+                            <td><img class="img-file" src="img/file.svg" alt=""></td>
+                            <td class="gray thead__summ">0.017200</td>
+                            <td class="gray forex"><img src="img/bit.svg" alt="">BTC</td>
+                            <td class="time">2022/01/22 15:19:08</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/bit.svg" alt="">Bitcoin
+                            </td>
+                            <td class="gray block">12345</td>
+                            <td class="hash max-screen">CYjJTSev87kAdgdb1FveeTT6cnf2TLUdpDDxcFuwp8J</td>
+                            <td class="hash min-screen">CYjJTS...cFup8J</td>
+                            <td><img class="img-file" src="img/file.svg" alt=""></td>
+                            <td class="gray thead__summ">0.0002023</td>
+                            <td class="gray forex"><img src="img/bit.svg" alt="">BTC</td>
+                            <td class="time">2022/01/22 15:19:08</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/ether.svg" alt="">Ethereum
+                            </td>
+                            <td class="gray block">12345</td>
+                            <td class="hash max-screen">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</td>
+                            <td class="hash min-screen">CYjJTS...cFup8J</td>
+                            <td><img class="img-file" src="img/file.svg" alt=""></td>
+                            <td class="gray thead__summ">1 097</td>
+                            <td class="gray forex"><img src="img/ether2.svg" alt="">USDT</td>
+                            <td class="time">2022/01/22 15:19:08</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/ether.svg" alt="">Ethereum
+                            </td>
+                            <td class="gray block">12345</td>
+                            <td class="hash max-screen">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</td>
+                            <td class="hash min-screen">CYjJTS...cFup8J</td>
+                            <td><img class="img-file" src="img/file.svg" alt=""></td>
+                            <td class="gray thead__summ">490</td>
+                            <td class="gray forex"><img src="img/ether2.svg" alt="">USDT</td>
+                            <td class="time">2022/01/22 15:19:08</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/bit.svg" alt="">Bitcoin
+                            </td>
+                            <td class="gray block">1234</td>
+                            <td class="hash max-screen">CYjJTSev87kAdgdb1FveeTT6cnf2TLUdpDDxcFuwp8J</td>
+                            <td class="hash min-screen">CYjJTS...cFup8J</td>
+                            <td><img class="img-file" src="img/file.svg" alt=""></td>
+                            <td class="gray thead__summ">0.01</td>
+                            <td class="gray forex"><img src="img/bit.svg" alt="">BTC</td>
+                            <td class="time">2022/01/22 15:19:08</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/lite.svg" alt="">Litecoin
+                            </td>
+                            <td class="gray block">1234</td>
+                            <td class="hash max-screen">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUDDxcFuwp8J </td>
+                            <td class="hash min-screen">CYjJTS...cFup8J</td>
+                            <td><img class="img-file" src="img/file.svg" alt=""></td>
+                            <td class="gray thead__summ">15</td>
+                            <td class="gray forex"><img src="img/lite.svg" alt="">LTC</td>
+                            <td class="time">2022/01/22 15:19:08</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/bit.svg" alt="">Bitcoin
+                            </td>
+                            <td class="gray block">1234</td>
+                            <td class="hash max-screen">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J </td>
+                            <td class="hash min-screen">CYjJTS...cFup8J</td>
+                            <td><img class="img-file" src="img/file.svg" alt=""></td>
+                            <td class="gray thead__summ">1501</td>
+                            <td class="gray forex"><img src="img/bit.svg" alt="">BTC</td>
+                            <td class="time">2022/01/22 15:19:08</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/ether.svg" alt="">Ethereum
+                            </td>
+                            <td class="gray block">1234</td>
+                            <td class="hash max-screen">CYjJTSev87kAdgdb1FvueeTT6nf2TLUdpDDxcFuwp8J</td>
+                            <td class="hash min-screen">CYjJTS...cFup8J</td>
+                            <td><img class="img-file" src="img/file.svg" alt=""></td>
+                            <td class="gray thead__summ">30</td>
+                            <td class="gray forex"><img src="img/ether2.svg" alt="">USDT</td>
+                            <td class="time">2022/01/22 15:19:08</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/lite.svg" alt="">Litecoin
+                            </td>
+                            <td class="gray block">1234</td>
+                            <td class="hash max-screen">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</td>
+                            <td class="hash min-screen">CYjJTS...cFup8J</td>
+                            <td><img class="img-file" src="img/file.svg" alt=""></td>
+                            <td class="gray thead__summ">34.021</td>
+                            <td class="gray forex"><img src="img/lite.svg" alt="">LTC</td>
+                            <td class="time">2022/01/22 15:19:08</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="section__footer">
+                    <div class="section__footer__pagination">
+
+                        <svg class="pagination-active" width="33" height="32" viewBox="0 0 33 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="yellow-svg"
+                                d="M0.5 16C0.5 10.3995 0.5 7.59921 1.58993 5.46009C2.54867 3.57847 4.07847 2.04867 5.96009 1.08993C8.09921 0 10.8995 0 16.5 0C22.1005 0 24.9008 0 27.0399 1.08993C28.9215 2.04867 30.4513 3.57847 31.4101 5.46009C32.5 7.59921 32.5 10.3995 32.5 16C32.5 21.6005 32.5 24.4008 31.4101 26.5399C30.4513 28.4215 28.9215 29.9513 27.0399 30.9101C24.9008 32 22.1005 32 16.5 32C10.8995 32 8.09921 32 5.96009 30.9101C4.07847 29.9513 2.54867 28.4215 1.58993 26.5399C0.5 24.4008 0.5 21.6005 0.5 16Z"
+                                fill="#F2F4F7" />
+                            <path class="grey-svg" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.2197 15.4697C10.9268 15.7626 10.9268 16.2374 11.2197 16.5303L15.7197 21.0303C16.0126 21.3232 16.4874 21.3232 16.7803 21.0303C17.0732 20.7374 17.0732 20.2626 16.7803 19.9697L12.8107 16L16.7803 12.0303C17.0732 11.7374 17.0732 11.2626 16.7803 10.9697C16.4874 10.6768 16.0126 10.6768 15.7197 10.9697L11.2197 15.4697ZM19.7197 10.9697L15.2197 15.4697C14.9268 15.7626 14.9268 16.2374 15.2197 16.5303L19.7197 21.0303C20.0126 21.3232 20.4874 21.3232 20.7803 21.0303C21.0732 20.7374 21.0732 20.2626 20.7803 19.9697L16.8107 16L20.7803 12.0303C21.0732 11.7374 21.0732 11.2626 20.7803 10.9697C20.4874 10.6768 20.0126 10.6768 19.7197 10.9697Z"
+                                fill="#A4AAC2" />
+                            <path class="yellow-svg"
+                                d="M5.96009 30.9101L6.86808 29.1281L5.96009 30.9101ZM31.4101 26.5399L33.1921 27.4479L31.4101 26.5399ZM27.0399 30.9101L27.9479 32.6921L27.0399 30.9101ZM31.4101 5.46009L29.6281 6.36808L31.4101 5.46009ZM5.96009 1.08993L6.86808 2.87195L5.96009 1.08993ZM16.5 30C13.6667 30 11.6621 29.9984 10.0949 29.8704C8.55104 29.7443 7.6087 29.5054 6.86808 29.1281L5.05211 32.6921C6.45061 33.4046 7.97795 33.7108 9.76916 33.8571C11.537 34.0016 13.7327 34 16.5 34V30ZM-1.5 16C-1.5 18.7673 -1.50156 20.963 -1.35712 22.7308C-1.21077 24.522 -0.904647 26.0494 -0.192078 27.4479L3.37195 25.6319C2.99458 24.8913 2.75574 23.949 2.6296 22.4051C2.50156 20.8379 2.5 18.8333 2.5 16H-1.5ZM6.86808 29.1281C5.36278 28.3611 4.13893 27.1372 3.37195 25.6319L-0.192078 27.4479C0.958402 29.7058 2.79417 31.5416 5.05211 32.6921L6.86808 29.1281ZM30.5 16C30.5 18.8333 30.4984 20.8379 30.3704 22.4051C30.2443 23.949 30.0054 24.8913 29.6281 25.6319L33.1921 27.4479C33.9046 26.0494 34.2108 24.522 34.3571 22.7308C34.5016 20.963 34.5 18.7673 34.5 16H30.5ZM16.5 34C19.2673 34 21.463 34.0016 23.2308 33.8571C25.022 33.7108 26.5494 33.4046 27.9479 32.6921L26.1319 29.1281C25.3913 29.5054 24.449 29.7443 22.9051 29.8704C21.3379 29.9984 19.3333 30 16.5 30V34ZM29.6281 25.6319C28.8611 27.1372 27.6372 28.3611 26.1319 29.1281L27.9479 32.6921C30.2058 31.5416 32.0416 29.7058 33.1921 27.4479L29.6281 25.6319ZM16.5 2C19.3333 2 21.3379 2.00156 22.9051 2.1296C24.449 2.25574 25.3913 2.49458 26.1319 2.87195L27.9479 -0.692078C26.5494 -1.40465 25.022 -1.71077 23.2308 -1.85712C21.463 -2.00156 19.2673 -2 16.5 -2V2ZM34.5 16C34.5 13.2327 34.5016 11.037 34.3571 9.26916C34.2108 7.47795 33.9046 5.95061 33.1921 4.55211L29.6281 6.36808C30.0054 7.1087 30.2443 8.05104 30.3704 9.59488C30.4984 11.1621 30.5 13.1667 30.5 16H34.5ZM26.1319 2.87195C27.6372 3.63893 28.8611 4.86278 29.6281 6.36808L33.1921 4.55211C32.0416 2.29417 30.2058 0.458402 27.9479 -0.692078L26.1319 2.87195ZM16.5 -2C13.7327 -2 11.537 -2.00156 9.76916 -1.85712C7.97795 -1.71077 6.45061 -1.40465 5.05211 -0.692078L6.86808 2.87195C7.6087 2.49458 8.55104 2.25574 10.0949 2.1296C11.6621 2.00156 13.6667 2 16.5 2V-2ZM2.5 16C2.5 13.1667 2.50156 11.1621 2.6296 9.59488C2.75574 8.05104 2.99458 7.1087 3.37195 6.36808L-0.192078 4.55211C-0.904647 5.95061 -1.21077 7.47795 -1.35712 9.26916C-1.50156 11.037 -1.5 13.2327 -1.5 16H2.5ZM5.05211 -0.692078C2.79417 0.458402 0.958402 2.29417 -0.192078 4.55211L3.37195 6.36808C4.13893 4.86278 5.36278 3.63893 6.86808 2.87195L5.05211 -0.692078Z"
+                                fill="#F2F4F7" />
+                        </svg>
+
+                        <svg class="pagination-active" width="33" height="32" viewBox="0 0 33 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="yellow-svg"
+                                d="M0.5 16C0.5 10.3995 0.5 7.59921 1.58993 5.46009C2.54867 3.57847 4.07847 2.04867 5.96009 1.08993C8.09921 0 10.8995 0 16.5 0C22.1005 0 24.9008 0 27.0399 1.08993C28.9215 2.04867 30.4513 3.57847 31.4101 5.46009C32.5 7.59921 32.5 10.3995 32.5 16C32.5 21.6005 32.5 24.4008 31.4101 26.5399C30.4513 28.4215 28.9215 29.9513 27.0399 30.9101C24.9008 32 22.1005 32 16.5 32C10.8995 32 8.09921 32 5.96009 30.9101C4.07847 29.9513 2.54867 28.4215 1.58993 26.5399C0.5 24.4008 0.5 21.6005 0.5 16Z"
+                                fill="#F2F4F7" />
+                            <path class="grey-svg" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.9697 16.5303C12.6768 16.2374 12.6768 15.7626 12.9697 15.4697L17.4697 10.9697C17.7626 10.6768 18.2374 10.6768 18.5303 10.9697C18.8232 11.2626 18.8232 11.7374 18.5303 12.0303L14.5607 16L18.5303 19.9697C18.8232 20.2626 18.8232 20.7374 18.5303 21.0303C18.2374 21.3232 17.7626 21.3232 17.4697 21.0303L12.9697 16.5303Z"
+                                fill="#A4AAC2" />
+                            <path class="yellow-svg"
+                                d="M5.96009 30.9101L6.86808 29.1281L5.96009 30.9101ZM31.4101 26.5399L33.1921 27.4479L31.4101 26.5399ZM27.0399 30.9101L27.9479 32.6921L27.0399 30.9101ZM31.4101 5.46009L29.6281 6.36808L31.4101 5.46009ZM5.96009 1.08993L6.86808 2.87195L5.96009 1.08993ZM16.5 30C13.6667 30 11.6621 29.9984 10.0949 29.8704C8.55104 29.7443 7.6087 29.5054 6.86808 29.1281L5.05211 32.6921C6.45061 33.4046 7.97795 33.7108 9.76916 33.8571C11.537 34.0016 13.7327 34 16.5 34V30ZM-1.5 16C-1.5 18.7673 -1.50156 20.963 -1.35712 22.7308C-1.21077 24.522 -0.904647 26.0494 -0.192078 27.4479L3.37195 25.6319C2.99458 24.8913 2.75574 23.949 2.6296 22.4051C2.50156 20.8379 2.5 18.8333 2.5 16H-1.5ZM6.86808 29.1281C5.36278 28.3611 4.13893 27.1372 3.37195 25.6319L-0.192078 27.4479C0.958402 29.7058 2.79417 31.5416 5.05211 32.6921L6.86808 29.1281ZM30.5 16C30.5 18.8333 30.4984 20.8379 30.3704 22.4051C30.2443 23.949 30.0054 24.8913 29.6281 25.6319L33.1921 27.4479C33.9046 26.0494 34.2108 24.522 34.3571 22.7308C34.5016 20.963 34.5 18.7673 34.5 16H30.5ZM16.5 34C19.2673 34 21.463 34.0016 23.2308 33.8571C25.022 33.7108 26.5494 33.4046 27.9479 32.6921L26.1319 29.1281C25.3913 29.5054 24.449 29.7443 22.9051 29.8704C21.3379 29.9984 19.3333 30 16.5 30V34ZM29.6281 25.6319C28.8611 27.1372 27.6372 28.3611 26.1319 29.1281L27.9479 32.6921C30.2058 31.5416 32.0416 29.7058 33.1921 27.4479L29.6281 25.6319ZM16.5 2C19.3333 2 21.3379 2.00156 22.9051 2.1296C24.449 2.25574 25.3913 2.49458 26.1319 2.87195L27.9479 -0.692078C26.5494 -1.40465 25.022 -1.71077 23.2308 -1.85712C21.463 -2.00156 19.2673 -2 16.5 -2V2ZM34.5 16C34.5 13.2327 34.5016 11.037 34.3571 9.26916C34.2108 7.47795 33.9046 5.95061 33.1921 4.55211L29.6281 6.36808C30.0054 7.1087 30.2443 8.05104 30.3704 9.59488C30.4984 11.1621 30.5 13.1667 30.5 16H34.5ZM26.1319 2.87195C27.6372 3.63893 28.8611 4.86278 29.6281 6.36808L33.1921 4.55211C32.0416 2.29417 30.2058 0.458402 27.9479 -0.692078L26.1319 2.87195ZM16.5 -2C13.7327 -2 11.537 -2.00156 9.76916 -1.85712C7.97795 -1.71077 6.45061 -1.40465 5.05211 -0.692078L6.86808 2.87195C7.6087 2.49458 8.55104 2.25574 10.0949 2.1296C11.6621 2.00156 13.6667 2 16.5 2V-2ZM2.5 16C2.5 13.1667 2.50156 11.1621 2.6296 9.59488C2.75574 8.05104 2.99458 7.1087 3.37195 6.36808L-0.192078 4.55211C-0.904647 5.95061 -1.21077 7.47795 -1.35712 9.26916C-1.50156 11.037 -1.5 13.2327 -1.5 16H2.5ZM5.05211 -0.692078C2.79417 0.458402 0.958402 2.29417 -0.192078 4.55211L3.37195 6.36808C4.13893 4.86278 5.36278 3.63893 6.86808 2.87195L5.05211 -0.692078Z"
+                                fill="#F2F4F7" />
+                        </svg>
+
+                        <p class="btn-text">1</p>
+                        <p class="btn-text-all">из 265801</p>
+
+                        <svg class="pagination-active" width="33" height="32" viewBox="0 0 33 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="yellow-svg"
+                                d="M0.5 16C0.5 10.3995 0.5 7.59921 1.58993 5.46009C2.54867 3.57847 4.07847 2.04867 5.96009 1.08993C8.09921 0 10.8995 0 16.5 0C22.1005 0 24.9008 0 27.0399 1.08993C28.9215 2.04867 30.4513 3.57847 31.4101 5.46009C32.5 7.59921 32.5 10.3995 32.5 16C32.5 21.6005 32.5 24.4008 31.4101 26.5399C30.4513 28.4215 28.9215 29.9513 27.0399 30.9101C24.9008 32 22.1005 32 16.5 32C10.8995 32 8.09921 32 5.96009 30.9101C4.07847 29.9513 2.54867 28.4215 1.58993 26.5399C0.5 24.4008 0.5 21.6005 0.5 16Z"
+                                fill="#F2F4F7" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M19.5303 15.4697C19.8232 15.7626 19.8232 16.2374 19.5303 16.5303L15.0303 21.0303C14.7374 21.3232 14.2626 21.3232 13.9697 21.0303C13.6768 20.7374 13.6768 20.2626 13.9697 19.9697L17.9393 16L13.9697 12.0303C13.6768 11.7374 13.6768 11.2626 13.9697 10.9697C14.2626 10.6768 14.7374 10.6768 15.0303 10.9697L19.5303 15.4697Z"
+                                fill="#222837" />
+                            <path class="yellow-svg"
+                                d="M5.96009 30.9101L6.86808 29.1281L5.96009 30.9101ZM31.4101 26.5399L33.1921 27.4479L31.4101 26.5399ZM27.0399 30.9101L27.9479 32.6921L27.0399 30.9101ZM31.4101 5.46009L29.6281 6.36808L31.4101 5.46009ZM5.96009 1.08993L6.86808 2.87195L5.96009 1.08993ZM16.5 30C13.6667 30 11.6621 29.9984 10.0949 29.8704C8.55104 29.7443 7.6087 29.5054 6.86808 29.1281L5.05211 32.6921C6.45061 33.4046 7.97795 33.7108 9.76916 33.8571C11.537 34.0016 13.7327 34 16.5 34V30ZM-1.5 16C-1.5 18.7673 -1.50156 20.963 -1.35712 22.7308C-1.21077 24.522 -0.904647 26.0494 -0.192078 27.4479L3.37195 25.6319C2.99458 24.8913 2.75574 23.949 2.6296 22.4051C2.50156 20.8379 2.5 18.8333 2.5 16H-1.5ZM6.86808 29.1281C5.36278 28.3611 4.13893 27.1372 3.37195 25.6319L-0.192078 27.4479C0.958402 29.7058 2.79417 31.5416 5.05211 32.6921L6.86808 29.1281ZM30.5 16C30.5 18.8333 30.4984 20.8379 30.3704 22.4051C30.2443 23.949 30.0054 24.8913 29.6281 25.6319L33.1921 27.4479C33.9046 26.0494 34.2108 24.522 34.3571 22.7308C34.5016 20.963 34.5 18.7673 34.5 16H30.5ZM16.5 34C19.2673 34 21.463 34.0016 23.2308 33.8571C25.022 33.7108 26.5494 33.4046 27.9479 32.6921L26.1319 29.1281C25.3913 29.5054 24.449 29.7443 22.9051 29.8704C21.3379 29.9984 19.3333 30 16.5 30V34ZM29.6281 25.6319C28.8611 27.1372 27.6372 28.3611 26.1319 29.1281L27.9479 32.6921C30.2058 31.5416 32.0416 29.7058 33.1921 27.4479L29.6281 25.6319ZM16.5 2C19.3333 2 21.3379 2.00156 22.9051 2.1296C24.449 2.25574 25.3913 2.49458 26.1319 2.87195L27.9479 -0.692078C26.5494 -1.40465 25.022 -1.71077 23.2308 -1.85712C21.463 -2.00156 19.2673 -2 16.5 -2V2ZM34.5 16C34.5 13.2327 34.5016 11.037 34.3571 9.26916C34.2108 7.47795 33.9046 5.95061 33.1921 4.55211L29.6281 6.36808C30.0054 7.1087 30.2443 8.05104 30.3704 9.59488C30.4984 11.1621 30.5 13.1667 30.5 16H34.5ZM26.1319 2.87195C27.6372 3.63893 28.8611 4.86278 29.6281 6.36808L33.1921 4.55211C32.0416 2.29417 30.2058 0.458402 27.9479 -0.692078L26.1319 2.87195ZM16.5 -2C13.7327 -2 11.537 -2.00156 9.76916 -1.85712C7.97795 -1.71077 6.45061 -1.40465 5.05211 -0.692078L6.86808 2.87195C7.6087 2.49458 8.55104 2.25574 10.0949 2.1296C11.6621 2.00156 13.6667 2 16.5 2V-2ZM2.5 16C2.5 13.1667 2.50156 11.1621 2.6296 9.59488C2.75574 8.05104 2.99458 7.1087 3.37195 6.36808L-0.192078 4.55211C-0.904647 5.95061 -1.21077 7.47795 -1.35712 9.26916C-1.50156 11.037 -1.5 13.2327 -1.5 16H2.5ZM5.05211 -0.692078C2.79417 0.458402 0.958402 2.29417 -0.192078 4.55211L3.37195 6.36808C4.13893 4.86278 5.36278 3.63893 6.86808 2.87195L5.05211 -0.692078Z"
+                                fill="#F2F4F7" />
+                        </svg>
+
+                        <svg class="pagination-active" width="33" height="32" viewBox="0 0 33 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="yellow-svg"
+                                d="M0.5 16C0.5 10.3995 0.5 7.59921 1.58993 5.46009C2.54867 3.57847 4.07847 2.04867 5.96009 1.08993C8.09921 0 10.8995 0 16.5 0C22.1005 0 24.9008 0 27.0399 1.08993C28.9215 2.04867 30.4513 3.57847 31.4101 5.46009C32.5 7.59921 32.5 10.3995 32.5 16C32.5 21.6005 32.5 24.4008 31.4101 26.5399C30.4513 28.4215 28.9215 29.9513 27.0399 30.9101C24.9008 32 22.1005 32 16.5 32C10.8995 32 8.09921 32 5.96009 30.9101C4.07847 29.9513 2.54867 28.4215 1.58993 26.5399C0.5 24.4008 0.5 21.6005 0.5 16Z"
+                                fill="#F2F4F7" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.2803 21.0303L17.7803 16.5303C18.0732 16.2374 18.0732 15.7626 17.7803 15.4697L13.2803 10.9697C12.9874 10.6768 12.5126 10.6768 12.2197 10.9697C11.9268 11.2626 11.9268 11.7374 12.2197 12.0303L16.1893 16L12.2197 19.9697C11.9268 20.2626 11.9268 20.7374 12.2197 21.0303C12.5126 21.3232 12.9874 21.3232 13.2803 21.0303ZM17.2803 21.0303L21.7803 16.5303C22.0732 16.2374 22.0732 15.7626 21.7803 15.4697L17.2803 10.9697C16.9874 10.6768 16.5126 10.6768 16.2197 10.9697C15.9268 11.2626 15.9268 11.7374 16.2197 12.0303L20.1893 16L16.2197 19.9697C15.9268 20.2626 15.9268 20.7374 16.2197 21.0303C16.5126 21.3232 16.9874 21.3232 17.2803 21.0303Z"
+                                fill="#222837" />
+                            <path class="yellow-svg"
+                                d="M5.96009 30.9101L6.86808 29.1281L5.96009 30.9101ZM31.4101 26.5399L33.1921 27.4479L31.4101 26.5399ZM27.0399 30.9101L27.9479 32.6921L27.0399 30.9101ZM31.4101 5.46009L29.6281 6.36808L31.4101 5.46009ZM5.96009 1.08993L6.86808 2.87195L5.96009 1.08993ZM16.5 30C13.6667 30 11.6621 29.9984 10.0949 29.8704C8.55104 29.7443 7.6087 29.5054 6.86808 29.1281L5.05211 32.6921C6.45061 33.4046 7.97795 33.7108 9.76916 33.8571C11.537 34.0016 13.7327 34 16.5 34V30ZM-1.5 16C-1.5 18.7673 -1.50156 20.963 -1.35712 22.7308C-1.21077 24.522 -0.904647 26.0494 -0.192078 27.4479L3.37195 25.6319C2.99458 24.8913 2.75574 23.949 2.6296 22.4051C2.50156 20.8379 2.5 18.8333 2.5 16H-1.5ZM6.86808 29.1281C5.36278 28.3611 4.13893 27.1372 3.37195 25.6319L-0.192078 27.4479C0.958402 29.7058 2.79417 31.5416 5.05211 32.6921L6.86808 29.1281ZM30.5 16C30.5 18.8333 30.4984 20.8379 30.3704 22.4051C30.2443 23.949 30.0054 24.8913 29.6281 25.6319L33.1921 27.4479C33.9046 26.0494 34.2108 24.522 34.3571 22.7308C34.5016 20.963 34.5 18.7673 34.5 16H30.5ZM16.5 34C19.2673 34 21.463 34.0016 23.2308 33.8571C25.022 33.7108 26.5494 33.4046 27.9479 32.6921L26.1319 29.1281C25.3913 29.5054 24.449 29.7443 22.9051 29.8704C21.3379 29.9984 19.3333 30 16.5 30V34ZM29.6281 25.6319C28.8611 27.1372 27.6372 28.3611 26.1319 29.1281L27.9479 32.6921C30.2058 31.5416 32.0416 29.7058 33.1921 27.4479L29.6281 25.6319ZM16.5 2C19.3333 2 21.3379 2.00156 22.9051 2.1296C24.449 2.25574 25.3913 2.49458 26.1319 2.87195L27.9479 -0.692078C26.5494 -1.40465 25.022 -1.71077 23.2308 -1.85712C21.463 -2.00156 19.2673 -2 16.5 -2V2ZM34.5 16C34.5 13.2327 34.5016 11.037 34.3571 9.26916C34.2108 7.47795 33.9046 5.95061 33.1921 4.55211L29.6281 6.36808C30.0054 7.1087 30.2443 8.05104 30.3704 9.59488C30.4984 11.1621 30.5 13.1667 30.5 16H34.5ZM26.1319 2.87195C27.6372 3.63893 28.8611 4.86278 29.6281 6.36808L33.1921 4.55211C32.0416 2.29417 30.2058 0.458402 27.9479 -0.692078L26.1319 2.87195ZM16.5 -2C13.7327 -2 11.537 -2.00156 9.76916 -1.85712C7.97795 -1.71077 6.45061 -1.40465 5.05211 -0.692078L6.86808 2.87195C7.6087 2.49458 8.55104 2.25574 10.0949 2.1296C11.6621 2.00156 13.6667 2 16.5 2V-2ZM2.5 16C2.5 13.1667 2.50156 11.1621 2.6296 9.59488C2.75574 8.05104 2.99458 7.1087 3.37195 6.36808L-0.192078 4.55211C-0.904647 5.95061 -1.21077 7.47795 -1.35712 9.26916C-1.50156 11.037 -1.5 13.2327 -1.5 16H2.5ZM5.05211 -0.692078C2.79417 0.458402 0.958402 2.29417 -0.192078 4.55211L3.37195 6.36808C4.13893 4.86278 5.36278 3.63893 6.86808 2.87195L5.05211 -0.692078Z"
+                                fill="#F2F4F7" />
+                        </svg>
+
+                    </div>
+                    <div class="section__footer__info">
+                        <p>Показывать по</p>
+                        <button class="section__footer__info__btn top-mini">
+                            <p>10</p>
+                        </button>
+                        <ul class="section__footer__info__list hidden">
+                            <li class="list__item">10</li>
+                            <li class="list__item">25</li>
+                            <li class="list__item">50</li>
+                            <li class="list__item">100</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="wrapper-burger hidden">
+            <article class="burger-menu">
+                <div class="burger-menu__buttons">
+                    <div class="header-button">
+                        <button class="button-text button-text-burger arrow-top">
+                            RUB
+                        </button>
+                        <ul class="header-button__list list-burger hidden">
+                            <li class="list__item">USD</li>
+                            <li class="list__item">MOZ</li>
+                            <li class="list__item">TEC</li>
+                            <li class="list__item">BTC</li>
+                            <li class="list__item">ETH</li>
+                            <li class="list__item">USD</li>
+                            <li class="list__item">EUR</li>
+                            <li class="list__item">GBP</li>
+                            <li class="list__item">CAD</li>
+                            <li class="list__item">AUD</li>
+                            <li class="list__item">RUB</li>
+                        </ul>
+                    </div>
+                    <div class="header-button">
+                        <button class="button-text button-lang button-lang-burger arrow-top">
+                            <img src="img/planet.svg" alt="">
+                            <div class="button-text-change text-change-burger">Русский</div>
+                        </button>
+                        <ul class="header-button__list lang-list lang-list-burger hidden">
+                            <li class="list__item"><img src="img/planet.svg" alt="">English</li>
+                            <li class="list__item"><img src="img/planet.svg" alt="">Русский</li>
+                        </ul>
+                    </div>
+                    <img class="burger-menu__close" src="img/close.svg" alt="">
+                </div>
+                <button class="button-reg button-reg-burger">
+                    <p>Регистрация</p>
+                </button>
+                <button class="button-enter button-enter-burger">
+                    <p>Вход</p>
+                </button>
+                <div class="burger-menu__sort">
+                    <a href="#">События</a>
+                    <a href="#">Токены</a>
+                    <a href="#">Хранилище</a>
+                    <a href="#">Файлы</a>
+                    <a href="#">Контракты</a>
+                </div>
+                <div class="burger-menu__icons footer__icons">
+                    <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="yellow-svg"
+                            d="M12.9603 23.7H16.4862V16.875H19.4344L19.8797 13.325H16.4862V11.05C16.4862 10.025 16.7629 9.325 18.1829 9.325H20V6.1375C19.6871 6.1 18.6161 6 17.3646 6C14.7413 6 12.9603 7.6625 12.9603 10.7V13.325H10V16.875H12.9603V23.7Z"
+                            fill="#F2F4F7" />
+                        <path class="yellow-svg" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M23.7 19V7C23.7 4.40426 21.5957 2.3 19 2.3H7C4.40426 2.3 2.3 4.40426 2.3 7V19C2.3 21.5957 4.40426 23.7 7 23.7H19C21.5957 23.7 23.7 21.5957 23.7 19ZM26 7V19C26 22.866 22.866 26 19 26H7C3.13401 26 0 22.866 0 19V7C0 3.13401 3.13401 0 7 0H19C22.866 0 26 3.13401 26 7Z"
+                            fill="#F2F4F7" />
+                    </svg>
+                    <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="yellow-svg" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7 2.3H19C21.5957 2.3 23.7 4.40426 23.7 7V19C23.7 21.5957 21.5957 23.7 19 23.7H7C4.40426 23.7 2.3 21.5957 2.3 19V7C2.3 4.40426 4.40426 2.3 7 2.3ZM19 0H7C3.13401 0 0 3.13401 0 7V19C0 22.866 3.13401 26 7 26H19C22.866 26 26 22.866 26 19V7C26 3.13401 22.866 0 19 0ZM6.65371 11.7717L19.055 7.07581C19.6209 6.82443 20.1679 7.20974 19.9517 8.06072L17.8401 17.8329C17.6925 18.528 17.2665 18.6928 16.6734 18.3721L13.4566 16.0389L11.9101 17.5156C11.9043 17.5211 11.8986 17.5265 11.8929 17.5319C11.7204 17.6958 11.5774 17.8316 11.2659 17.8316L11.4855 14.6089L11.4841 14.6083H11.4855L17.454 9.31899C17.7156 9.09096 17.3973 8.97901 17.049 9.18712L9.68235 13.7511L6.49844 12.7758C5.81227 12.5691 5.80737 12.1055 6.65371 11.7717Z"
+                            fill="#F2F4F7" />
+                    </svg>
+                    <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="yellow-svg" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7 2.3H19C21.5957 2.3 23.7 4.40426 23.7 7V19C23.7 21.5957 21.5957 23.7 19 23.7H7C4.40426 23.7 2.3 21.5957 2.3 19V7C2.3 4.40426 4.40426 2.3 7 2.3ZM19 0H7C3.13401 0 0 3.13401 0 7V19C0 22.866 3.13401 26 7 26H19C22.866 26 26 22.866 26 19V7C26 3.13401 22.866 0 19 0ZM9.17811 10.2696V19.125H6.17706V10.2696H9.17811ZM9.3759 7.53005C9.3759 8.37981 8.72449 9.0598 7.67797 9.0598H7.67788H7.65838C6.65125 9.0598 6 8.37985 6 7.53005C6 6.66113 6.67129 6 7.69783 6C8.72453 6 9.3564 6.66112 9.3759 7.53005ZM13.8402 19.125H10.8392L10.8392 19.1248C10.8392 19.1248 10.8786 11.1003 10.8392 10.2694H13.8403V11.5232C14.2391 10.9199 14.953 10.0617 16.5449 10.0617C18.5194 10.0617 20 11.3273 20 14.0473V19.1249H16.9991V14.3875C16.9991 13.197 16.5647 12.385 15.4787 12.385C14.6497 12.385 14.1559 12.9327 13.939 13.4615C13.8597 13.6506 13.8402 13.915 13.8402 14.1797V19.125Z"
+                            fill="#F2F4F7" />
+                    </svg>
+                    <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="yellow-svg"
+                            d="M7.49347 22.3933C8.2605 22.0553 9.11853 21.9916 9.92196 22.2126C10.923 22.4856 11.9565 22.6234 13.0005 22.6208C18.9612 22.6208 23.4008 18.3476 23.4008 12.6105C23.4008 6.87335 18.9612 2.60009 13.0005 2.60009C7.03976 2.60009 2.60009 6.87335 2.60009 12.6105C2.60009 15.5616 3.76494 18.1643 5.80601 19.9895C6.17686 20.318 6.47675 20.7187 6.68733 21.1672C6.8979 21.6156 7.01473 22.1023 7.03065 22.5974L7.49347 22.3933ZM13.0005 0C20.3249 0 26.0009 5.36529 26.0009 12.6105C26.0009 19.8556 20.3249 25.2209 13.0005 25.2209C11.7292 25.2242 10.4633 25.0563 9.23684 24.7217C9.00647 24.6584 8.76133 24.6763 8.54261 24.7724L5.96332 25.9112C5.80748 25.9801 5.63711 26.0096 5.46718 25.9972C5.29726 25.9848 5.13298 25.9309 4.9888 25.8401C4.84462 25.7493 4.72494 25.6245 4.6403 25.4767C4.55565 25.3288 4.50863 25.1624 4.50336 24.9921L4.43186 22.678C4.42718 22.5373 4.39387 22.399 4.33396 22.2716C4.27406 22.1442 4.18882 22.0304 4.08345 21.937C1.55356 19.6762 0 16.4027 0 12.6105C0 5.36529 5.67731 0 13.0005 0ZM5.19369 16.2987L9.01193 10.2405C9.15559 10.0124 9.34498 9.81656 9.56814 9.66535C9.7913 9.51415 10.0434 9.41086 10.3085 9.36199C10.5736 9.31313 10.8459 9.31975 11.1083 9.38145C11.3707 9.44315 11.6175 9.55858 11.833 9.72045L14.8699 11.9955C15.0053 12.0977 15.1703 12.153 15.3399 12.153C15.5095 12.153 15.6745 12.0977 15.8099 11.9955L19.9115 8.88062C20.4588 8.46591 21.1739 9.12113 20.8073 9.70355L16.989 15.7618C16.8454 15.9899 16.656 16.1857 16.4328 16.3369C16.2097 16.4881 15.9576 16.5914 15.6925 16.6403C15.4274 16.6891 15.155 16.6825 14.8926 16.6208C14.6302 16.5591 14.3835 16.4437 14.1679 16.2818L11.131 14.0067C10.9956 13.9045 10.8306 13.8492 10.661 13.8492C10.4914 13.8492 10.3264 13.9045 10.1911 14.0067L6.08942 17.1203C5.5421 17.535 4.82707 16.8798 5.19369 16.2974V16.2987Z"
+                            fill="#F2F4F7" />
+                    </svg>
+                    <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="yellow-svg" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.001 0C9.47018 0 9.02818 0.0155999 7.64108 0.0779999C6.25788 0.1417 5.31278 0.3614 4.48598 0.6825C3.61821 1.0086 2.83206 1.52013 2.18238 2.1814C1.52114 2.83111 1.00961 3.61725 0.683477 4.485C0.362377 5.3118 0.142676 6.2569 0.0789765 7.6401C0.0152765 9.0272 0.000976562 9.4692 0.000976562 13C0.000976562 16.5308 0.0152765 16.9728 0.0789765 18.3599C0.142676 19.7431 0.362377 20.6882 0.683477 21.515C1.00965 22.3827 1.52117 23.1689 2.18238 23.8186C2.83211 24.4798 3.61825 24.9913 4.48598 25.3175C5.31278 25.6386 6.25788 25.8583 7.64108 25.922C9.02818 25.9844 9.47018 26 13.001 26C16.5318 26 16.9738 25.9844 18.3609 25.922C19.7441 25.8583 20.6892 25.6386 21.516 25.3175C22.3837 24.9914 23.1699 24.4798 23.8196 23.8186C24.4808 23.1689 24.9923 22.3827 25.3185 21.515C25.6396 20.6882 25.8593 19.7431 25.923 18.3599C25.9854 16.9728 26.001 16.5308 26.001 13C26.001 9.4692 25.9854 9.0272 25.923 7.6401C25.8593 6.2569 25.6396 5.3118 25.3185 4.485C24.9923 3.61725 24.4808 2.83111 23.8196 2.1814C23.1699 1.52013 22.3837 1.0086 21.516 0.6825C20.6892 0.3614 19.7441 0.1417 18.3609 0.0779999C16.9738 0.0155999 16.5318 0 13.001 0ZM13.001 2.3426C16.472 2.3426 16.8828 2.3556 18.253 2.418C19.5218 2.4765 20.2095 2.6871 20.6684 2.8652C21.2742 3.1018 21.7084 3.3839 22.1634 3.8376C22.6184 4.2926 22.8992 4.7268 23.1358 5.3326C23.3126 5.7915 23.5258 6.4792 23.583 7.7467C23.6454 9.1182 23.6584 9.5277 23.6584 13C23.6584 16.471 23.6454 16.8818 23.583 18.252C23.5245 19.5208 23.3126 20.2085 23.1358 20.6674C22.9274 21.2321 22.5951 21.7429 22.1634 22.1624C21.7084 22.6174 21.2742 22.8982 20.6684 23.1348C20.2095 23.3116 19.5218 23.5248 18.2543 23.582C16.8841 23.6444 16.4733 23.6574 13.001 23.6574C9.52998 23.6574 9.11788 23.6444 7.74898 23.582C6.48018 23.5235 5.79248 23.3116 5.33358 23.1348C4.76884 22.9265 4.25798 22.5942 3.83858 22.1624C3.40679 21.743 3.07451 21.2321 2.86618 20.6674C2.68808 20.2085 2.47618 19.5208 2.41898 18.2533C2.35658 16.8818 2.34358 16.4723 2.34358 13C2.34358 9.529 2.35658 9.1182 2.41898 7.748C2.47748 6.4792 2.68808 5.7915 2.86618 5.3326C3.10278 4.7268 3.38488 4.2926 3.83858 3.8376C4.29358 3.3826 4.72778 3.1018 5.33358 2.8652C5.79248 2.6871 6.48018 2.4752 7.74768 2.418C9.11918 2.3556 9.52868 2.3426 13.001 2.3426ZM13.001 17.3329C11.8518 17.3329 10.7497 16.8764 9.93715 16.0638C9.12458 15.2512 8.66808 14.1492 8.66808 13C8.66808 11.8508 9.12458 10.7488 9.93715 9.93618C10.7497 9.1236 11.8518 8.6671 13.001 8.6671C14.1501 8.6671 15.2522 9.1236 16.0648 9.93618C16.8774 10.7488 17.3339 11.8508 17.3339 13C17.3339 14.1492 16.8774 15.2512 16.0648 16.0638C15.2522 16.8764 14.1501 17.3329 13.001 17.3329ZM13.001 6.3245C12.1243 6.3245 11.2563 6.49717 10.4464 6.83264C9.63646 7.16812 8.90056 7.65983 8.28068 8.27971C7.66081 8.89959 7.16909 9.63549 6.83362 10.4454C6.49814 11.2553 6.32548 12.1234 6.32548 13C6.32548 13.8766 6.49814 14.7447 6.83362 15.5546C7.16909 16.3645 7.66081 17.1004 8.28068 17.7203C8.90056 18.3402 9.63646 18.8319 10.4464 19.1674C11.2563 19.5028 12.1243 19.6755 13.001 19.6755C14.7714 19.6755 16.4694 18.9722 17.7213 17.7203C18.9732 16.4684 19.6765 14.7705 19.6765 13C19.6765 11.2295 18.9732 9.53161 17.7213 8.27971C16.4694 7.02781 14.7714 6.3245 13.001 6.3245ZM21.5004 6.0606C21.5004 6.26546 21.46 6.46832 21.3816 6.65759C21.3032 6.84685 21.1883 7.01883 21.0435 7.16369C20.8986 7.30855 20.7266 7.42345 20.5374 7.50185C20.3481 7.58025 20.1452 7.6206 19.9404 7.6206C19.7355 7.6206 19.5327 7.58025 19.3434 7.50185C19.1541 7.42345 18.9821 7.30855 18.8373 7.16369C18.6924 7.01883 18.5775 6.84685 18.4991 6.65759C18.4207 6.46832 18.3804 6.26546 18.3804 6.0606C18.3804 5.64686 18.5447 5.25007 18.8373 4.95751C19.1298 4.66496 19.5266 4.5006 19.9404 4.5006C20.3541 4.5006 20.7509 4.66496 21.0435 4.95751C21.336 5.25007 21.5004 5.64686 21.5004 6.0606Z"
+                            fill="#F2F4F7" />
+                    </svg>
+                    <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="yellow-svg" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.00098 2.3H19.001C21.5967 2.3 23.701 4.40426 23.701 7V19C23.701 21.5957 21.5967 23.7 19.001 23.7H7.00098C4.40524 23.7 2.30098 21.5957 2.30098 19V7C2.30098 4.40426 4.40524 2.3 7.00098 2.3ZM19.001 0H7.00098C3.13498 0 0.000976562 3.13401 0.000976562 7V19C0.000976562 22.866 3.13498 26 7.00098 26H19.001C22.867 26 26.001 22.866 26.001 19V7C26.001 3.13401 22.867 0 19.001 0ZM18.3516 9.80196C18.9331 9.73229 19.4861 9.57814 20.001 9.35001L19.9997 9.35186C19.6143 9.92829 19.1293 10.4315 18.5674 10.8378C18.573 10.9611 18.5761 11.0857 18.5761 11.209C18.5761 15.0046 15.6874 19.3811 10.4033 19.3811C8.84237 19.3828 7.31396 18.9348 6.00098 18.0906C6.22854 18.1174 6.45748 18.1307 6.68661 18.1307C7.98012 18.1326 9.23667 17.6993 10.2541 16.9006C9.65476 16.8896 9.07384 16.6915 8.59268 16.3339C8.11152 15.9764 7.75421 15.4773 7.57078 14.9066C8.00136 14.9886 8.44495 14.9718 8.86806 14.8573C8.21792 14.7259 7.63326 14.3736 7.21328 13.8603C6.7933 13.3469 6.56387 12.704 6.56391 12.0407V12.0038C6.96276 12.2255 7.40879 12.3487 7.86489 12.3632C7.47161 12.1006 7.14924 11.7449 6.92638 11.3278C6.70352 10.9107 6.58707 10.445 6.58734 9.97213C6.58734 9.44681 6.72915 8.95355 6.97578 8.52811C7.69708 9.41546 8.5969 10.1412 9.61685 10.6583C10.6368 11.1754 11.7541 11.4723 12.8962 11.5296C12.7516 10.9135 12.8145 10.2669 13.0751 9.69018C13.3356 9.11346 13.7793 8.63892 14.3372 8.34021C14.8952 8.0415 15.5361 7.93535 16.1605 8.03822C16.7849 8.1411 17.3579 8.44726 17.7905 8.90915C18.4339 8.78288 19.0507 8.54722 19.6144 8.21242C19.4004 8.878 18.9516 9.44298 18.3516 9.80196Z"
+                            fill="#F2F4F7" />
+                    </svg>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <img src="img/logo.svg " alt="">
+        <div class="footer__icons">
+            <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="yellow-svg"
+                    d="M12.9603 23.7H16.4862V16.875H19.4344L19.8797 13.325H16.4862V11.05C16.4862 10.025 16.7629 9.325 18.1829 9.325H20V6.1375C19.6871 6.1 18.6161 6 17.3646 6C14.7413 6 12.9603 7.6625 12.9603 10.7V13.325H10V16.875H12.9603V23.7Z"
+                    fill="#F2F4F7" />
+                <path class="yellow-svg" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M23.7 19V7C23.7 4.40426 21.5957 2.3 19 2.3H7C4.40426 2.3 2.3 4.40426 2.3 7V19C2.3 21.5957 4.40426 23.7 7 23.7H19C21.5957 23.7 23.7 21.5957 23.7 19ZM26 7V19C26 22.866 22.866 26 19 26H7C3.13401 26 0 22.866 0 19V7C0 3.13401 3.13401 0 7 0H19C22.866 0 26 3.13401 26 7Z"
+                    fill="#F2F4F7" />
+            </svg>
+            <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="yellow-svg" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7 2.3H19C21.5957 2.3 23.7 4.40426 23.7 7V19C23.7 21.5957 21.5957 23.7 19 23.7H7C4.40426 23.7 2.3 21.5957 2.3 19V7C2.3 4.40426 4.40426 2.3 7 2.3ZM19 0H7C3.13401 0 0 3.13401 0 7V19C0 22.866 3.13401 26 7 26H19C22.866 26 26 22.866 26 19V7C26 3.13401 22.866 0 19 0ZM6.65371 11.7717L19.055 7.07581C19.6209 6.82443 20.1679 7.20974 19.9517 8.06072L17.8401 17.8329C17.6925 18.528 17.2665 18.6928 16.6734 18.3721L13.4566 16.0389L11.9101 17.5156C11.9043 17.5211 11.8986 17.5265 11.8929 17.5319C11.7204 17.6958 11.5774 17.8316 11.2659 17.8316L11.4855 14.6089L11.4841 14.6083H11.4855L17.454 9.31899C17.7156 9.09096 17.3973 8.97901 17.049 9.18712L9.68235 13.7511L6.49844 12.7758C5.81227 12.5691 5.80737 12.1055 6.65371 11.7717Z"
+                    fill="#F2F4F7" />
+            </svg>
+            <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="yellow-svg" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7 2.3H19C21.5957 2.3 23.7 4.40426 23.7 7V19C23.7 21.5957 21.5957 23.7 19 23.7H7C4.40426 23.7 2.3 21.5957 2.3 19V7C2.3 4.40426 4.40426 2.3 7 2.3ZM19 0H7C3.13401 0 0 3.13401 0 7V19C0 22.866 3.13401 26 7 26H19C22.866 26 26 22.866 26 19V7C26 3.13401 22.866 0 19 0ZM9.17811 10.2696V19.125H6.17706V10.2696H9.17811ZM9.3759 7.53005C9.3759 8.37981 8.72449 9.0598 7.67797 9.0598H7.67788H7.65838C6.65125 9.0598 6 8.37985 6 7.53005C6 6.66113 6.67129 6 7.69783 6C8.72453 6 9.3564 6.66112 9.3759 7.53005ZM13.8402 19.125H10.8392L10.8392 19.1248C10.8392 19.1248 10.8786 11.1003 10.8392 10.2694H13.8403V11.5232C14.2391 10.9199 14.953 10.0617 16.5449 10.0617C18.5194 10.0617 20 11.3273 20 14.0473V19.1249H16.9991V14.3875C16.9991 13.197 16.5647 12.385 15.4787 12.385C14.6497 12.385 14.1559 12.9327 13.939 13.4615C13.8597 13.6506 13.8402 13.915 13.8402 14.1797V19.125Z"
+                    fill="#F2F4F7" />
+            </svg>
+            <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="yellow-svg"
+                    d="M7.49347 22.3933C8.2605 22.0553 9.11853 21.9916 9.92196 22.2126C10.923 22.4856 11.9565 22.6234 13.0005 22.6208C18.9612 22.6208 23.4008 18.3476 23.4008 12.6105C23.4008 6.87335 18.9612 2.60009 13.0005 2.60009C7.03976 2.60009 2.60009 6.87335 2.60009 12.6105C2.60009 15.5616 3.76494 18.1643 5.80601 19.9895C6.17686 20.318 6.47675 20.7187 6.68733 21.1672C6.8979 21.6156 7.01473 22.1023 7.03065 22.5974L7.49347 22.3933ZM13.0005 0C20.3249 0 26.0009 5.36529 26.0009 12.6105C26.0009 19.8556 20.3249 25.2209 13.0005 25.2209C11.7292 25.2242 10.4633 25.0563 9.23684 24.7217C9.00647 24.6584 8.76133 24.6763 8.54261 24.7724L5.96332 25.9112C5.80748 25.9801 5.63711 26.0096 5.46718 25.9972C5.29726 25.9848 5.13298 25.9309 4.9888 25.8401C4.84462 25.7493 4.72494 25.6245 4.6403 25.4767C4.55565 25.3288 4.50863 25.1624 4.50336 24.9921L4.43186 22.678C4.42718 22.5373 4.39387 22.399 4.33396 22.2716C4.27406 22.1442 4.18882 22.0304 4.08345 21.937C1.55356 19.6762 0 16.4027 0 12.6105C0 5.36529 5.67731 0 13.0005 0ZM5.19369 16.2987L9.01193 10.2405C9.15559 10.0124 9.34498 9.81656 9.56814 9.66535C9.7913 9.51415 10.0434 9.41086 10.3085 9.36199C10.5736 9.31313 10.8459 9.31975 11.1083 9.38145C11.3707 9.44315 11.6175 9.55858 11.833 9.72045L14.8699 11.9955C15.0053 12.0977 15.1703 12.153 15.3399 12.153C15.5095 12.153 15.6745 12.0977 15.8099 11.9955L19.9115 8.88062C20.4588 8.46591 21.1739 9.12113 20.8073 9.70355L16.989 15.7618C16.8454 15.9899 16.656 16.1857 16.4328 16.3369C16.2097 16.4881 15.9576 16.5914 15.6925 16.6403C15.4274 16.6891 15.155 16.6825 14.8926 16.6208C14.6302 16.5591 14.3835 16.4437 14.1679 16.2818L11.131 14.0067C10.9956 13.9045 10.8306 13.8492 10.661 13.8492C10.4914 13.8492 10.3264 13.9045 10.1911 14.0067L6.08942 17.1203C5.5421 17.535 4.82707 16.8798 5.19369 16.2974V16.2987Z"
+                    fill="#F2F4F7" />
+            </svg>
+            <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="yellow-svg" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.001 0C9.47018 0 9.02818 0.0155999 7.64108 0.0779999C6.25788 0.1417 5.31278 0.3614 4.48598 0.6825C3.61821 1.0086 2.83206 1.52013 2.18238 2.1814C1.52114 2.83111 1.00961 3.61725 0.683477 4.485C0.362377 5.3118 0.142676 6.2569 0.0789765 7.6401C0.0152765 9.0272 0.000976562 9.4692 0.000976562 13C0.000976562 16.5308 0.0152765 16.9728 0.0789765 18.3599C0.142676 19.7431 0.362377 20.6882 0.683477 21.515C1.00965 22.3827 1.52117 23.1689 2.18238 23.8186C2.83211 24.4798 3.61825 24.9913 4.48598 25.3175C5.31278 25.6386 6.25788 25.8583 7.64108 25.922C9.02818 25.9844 9.47018 26 13.001 26C16.5318 26 16.9738 25.9844 18.3609 25.922C19.7441 25.8583 20.6892 25.6386 21.516 25.3175C22.3837 24.9914 23.1699 24.4798 23.8196 23.8186C24.4808 23.1689 24.9923 22.3827 25.3185 21.515C25.6396 20.6882 25.8593 19.7431 25.923 18.3599C25.9854 16.9728 26.001 16.5308 26.001 13C26.001 9.4692 25.9854 9.0272 25.923 7.6401C25.8593 6.2569 25.6396 5.3118 25.3185 4.485C24.9923 3.61725 24.4808 2.83111 23.8196 2.1814C23.1699 1.52013 22.3837 1.0086 21.516 0.6825C20.6892 0.3614 19.7441 0.1417 18.3609 0.0779999C16.9738 0.0155999 16.5318 0 13.001 0ZM13.001 2.3426C16.472 2.3426 16.8828 2.3556 18.253 2.418C19.5218 2.4765 20.2095 2.6871 20.6684 2.8652C21.2742 3.1018 21.7084 3.3839 22.1634 3.8376C22.6184 4.2926 22.8992 4.7268 23.1358 5.3326C23.3126 5.7915 23.5258 6.4792 23.583 7.7467C23.6454 9.1182 23.6584 9.5277 23.6584 13C23.6584 16.471 23.6454 16.8818 23.583 18.252C23.5245 19.5208 23.3126 20.2085 23.1358 20.6674C22.9274 21.2321 22.5951 21.7429 22.1634 22.1624C21.7084 22.6174 21.2742 22.8982 20.6684 23.1348C20.2095 23.3116 19.5218 23.5248 18.2543 23.582C16.8841 23.6444 16.4733 23.6574 13.001 23.6574C9.52998 23.6574 9.11788 23.6444 7.74898 23.582C6.48018 23.5235 5.79248 23.3116 5.33358 23.1348C4.76884 22.9265 4.25798 22.5942 3.83858 22.1624C3.40679 21.743 3.07451 21.2321 2.86618 20.6674C2.68808 20.2085 2.47618 19.5208 2.41898 18.2533C2.35658 16.8818 2.34358 16.4723 2.34358 13C2.34358 9.529 2.35658 9.1182 2.41898 7.748C2.47748 6.4792 2.68808 5.7915 2.86618 5.3326C3.10278 4.7268 3.38488 4.2926 3.83858 3.8376C4.29358 3.3826 4.72778 3.1018 5.33358 2.8652C5.79248 2.6871 6.48018 2.4752 7.74768 2.418C9.11918 2.3556 9.52868 2.3426 13.001 2.3426ZM13.001 17.3329C11.8518 17.3329 10.7497 16.8764 9.93715 16.0638C9.12458 15.2512 8.66808 14.1492 8.66808 13C8.66808 11.8508 9.12458 10.7488 9.93715 9.93618C10.7497 9.1236 11.8518 8.6671 13.001 8.6671C14.1501 8.6671 15.2522 9.1236 16.0648 9.93618C16.8774 10.7488 17.3339 11.8508 17.3339 13C17.3339 14.1492 16.8774 15.2512 16.0648 16.0638C15.2522 16.8764 14.1501 17.3329 13.001 17.3329ZM13.001 6.3245C12.1243 6.3245 11.2563 6.49717 10.4464 6.83264C9.63646 7.16812 8.90056 7.65983 8.28068 8.27971C7.66081 8.89959 7.16909 9.63549 6.83362 10.4454C6.49814 11.2553 6.32548 12.1234 6.32548 13C6.32548 13.8766 6.49814 14.7447 6.83362 15.5546C7.16909 16.3645 7.66081 17.1004 8.28068 17.7203C8.90056 18.3402 9.63646 18.8319 10.4464 19.1674C11.2563 19.5028 12.1243 19.6755 13.001 19.6755C14.7714 19.6755 16.4694 18.9722 17.7213 17.7203C18.9732 16.4684 19.6765 14.7705 19.6765 13C19.6765 11.2295 18.9732 9.53161 17.7213 8.27971C16.4694 7.02781 14.7714 6.3245 13.001 6.3245ZM21.5004 6.0606C21.5004 6.26546 21.46 6.46832 21.3816 6.65759C21.3032 6.84685 21.1883 7.01883 21.0435 7.16369C20.8986 7.30855 20.7266 7.42345 20.5374 7.50185C20.3481 7.58025 20.1452 7.6206 19.9404 7.6206C19.7355 7.6206 19.5327 7.58025 19.3434 7.50185C19.1541 7.42345 18.9821 7.30855 18.8373 7.16369C18.6924 7.01883 18.5775 6.84685 18.4991 6.65759C18.4207 6.46832 18.3804 6.26546 18.3804 6.0606C18.3804 5.64686 18.5447 5.25007 18.8373 4.95751C19.1298 4.66496 19.5266 4.5006 19.9404 4.5006C20.3541 4.5006 20.7509 4.66496 21.0435 4.95751C21.336 5.25007 21.5004 5.64686 21.5004 6.0606Z"
+                    fill="#F2F4F7" />
+            </svg>
+            <svg class="yellow-svg" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="yellow-svg" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.00098 2.3H19.001C21.5967 2.3 23.701 4.40426 23.701 7V19C23.701 21.5957 21.5967 23.7 19.001 23.7H7.00098C4.40524 23.7 2.30098 21.5957 2.30098 19V7C2.30098 4.40426 4.40524 2.3 7.00098 2.3ZM19.001 0H7.00098C3.13498 0 0.000976562 3.13401 0.000976562 7V19C0.000976562 22.866 3.13498 26 7.00098 26H19.001C22.867 26 26.001 22.866 26.001 19V7C26.001 3.13401 22.867 0 19.001 0ZM18.3516 9.80196C18.9331 9.73229 19.4861 9.57814 20.001 9.35001L19.9997 9.35186C19.6143 9.92829 19.1293 10.4315 18.5674 10.8378C18.573 10.9611 18.5761 11.0857 18.5761 11.209C18.5761 15.0046 15.6874 19.3811 10.4033 19.3811C8.84237 19.3828 7.31396 18.9348 6.00098 18.0906C6.22854 18.1174 6.45748 18.1307 6.68661 18.1307C7.98012 18.1326 9.23667 17.6993 10.2541 16.9006C9.65476 16.8896 9.07384 16.6915 8.59268 16.3339C8.11152 15.9764 7.75421 15.4773 7.57078 14.9066C8.00136 14.9886 8.44495 14.9718 8.86806 14.8573C8.21792 14.7259 7.63326 14.3736 7.21328 13.8603C6.7933 13.3469 6.56387 12.704 6.56391 12.0407V12.0038C6.96276 12.2255 7.40879 12.3487 7.86489 12.3632C7.47161 12.1006 7.14924 11.7449 6.92638 11.3278C6.70352 10.9107 6.58707 10.445 6.58734 9.97213C6.58734 9.44681 6.72915 8.95355 6.97578 8.52811C7.69708 9.41546 8.5969 10.1412 9.61685 10.6583C10.6368 11.1754 11.7541 11.4723 12.8962 11.5296C12.7516 10.9135 12.8145 10.2669 13.0751 9.69018C13.3356 9.11346 13.7793 8.63892 14.3372 8.34021C14.8952 8.0415 15.5361 7.93535 16.1605 8.03822C16.7849 8.1411 17.3579 8.44726 17.7905 8.90915C18.4339 8.78288 19.0507 8.54722 19.6144 8.21242C19.4004 8.878 18.9516 9.44298 18.3516 9.80196Z"
+                    fill="#F2F4F7" />
+            </svg>
+        </div>
+        <div class="footer__text">
+            <p class="text-max">Tectum.io©, 2020<br>
+                <span>Terms & Conditions – Privacy Policy</span><br>
+                Version 0.01
+            </p>
+            <p class="text-mini">Tectum.io©, 2020<br>
+                <span>Terms & Conditions – Privacy<br> Policy.</span>
+                Version 0.01
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
